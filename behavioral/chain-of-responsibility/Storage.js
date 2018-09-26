@@ -23,7 +23,7 @@ class Storage {
                 name: found.name,
                 qty: found.qty,
                 location: this.name,
-                deliveryTime: (this.deliveryTime === 0) ? 'now' : `${this.deliveryTime} day(s)`
+                deliveryTime: (this.deliveryTime === 0) ? 'now' : `${this.deliveryTime} day(s)`,
             };
         }
 

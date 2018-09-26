@@ -8,6 +8,7 @@ class FsProxy {
         this.fs = fsSubject;
     }
 
+    /* eslint-disable consistent-return */
     readFile(path, format, callback) {
 
         // TODO: ignore case
@@ -25,6 +26,7 @@ class FsProxy {
             return callback(null, contents);
         });
     }
+    /* eslint-enable consistent-return */
 }
 
 module.exports = FsProxy;

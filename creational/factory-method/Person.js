@@ -1,6 +1,6 @@
 class Person {
 
-    constructor(name = 'unnamed person')  {
+    constructor(name = 'unnamed person') {
         this.name = name;
     }
 

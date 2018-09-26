@@ -21,6 +21,13 @@ module.exports = {
         'arrow-parens': 'off',
         'no-plusplus': 'off',
         'no-prototype-builtins': 'warn',
-        'no-console': 'off'
+        'no-console': 'off',
+        'object-curly-newline': ['error',  {
+            "ObjectExpression": {
+                "minProperties": 4,
+                "multiline": true,
+                "consistent": true
+            },
+        }],
     },
 };

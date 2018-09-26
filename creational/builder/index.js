@@ -6,6 +6,7 @@ const sue = new PersonBuilder('Sue')
     .makeManager(60)
     .build();
 
+/* eslint-disable no-unused-vars */
 const bill = new PersonBuilder('Bill')
     .makeEmployee()
     .makePartTime()

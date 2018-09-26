@@ -1,4 +1,4 @@
-const Shopper = require('./Shopper')
+const Shopper = require('./Shopper');
 
 class Employee extends Shopper {
 

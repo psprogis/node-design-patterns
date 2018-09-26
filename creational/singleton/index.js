@@ -5,8 +5,9 @@ const Store = require('./Store');
 
 logger.log('starting app...');
 
+/* eslint-disable no-unused-vars */
 const alex = new Shopper('alex', 500);
-const ski_shop = new Store('Steep and Deep Supplies', [
+const skiShop = new Store('Steep and Deep Supplies', [
     {
         item: 'Downhill Skis',
         qty: 5,
