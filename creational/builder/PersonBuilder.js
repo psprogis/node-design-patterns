@@ -1,6 +1,6 @@
 /*
  * Motivation: separate the constuction of a complex object from its representation so that the same
- * constructon process can create different representations.
+ * construction process can create different representations.
  */
 const Person = require('./Person');
 

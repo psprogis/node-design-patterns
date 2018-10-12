@@ -30,7 +30,6 @@ class Logger {
         this.logs.push({ message, timestamp });
         console.log(`${timestamp} - ${message}`);
     }
-
 }
 
 module.exports = new Logger();
